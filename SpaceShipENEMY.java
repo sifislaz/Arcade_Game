@@ -41,4 +41,10 @@ public class SpaceShipENEMY extends SpaceShip{
 		if(xCoord + spaceShipWidth > MainClass.cosmosWidth) xCoord += xPace;  // if the spaceship is about to go out of bounds
 		return xCoord;
 	}
+	
+	
+	public void printCoords() {
+		System.out.println("ENEMY xCoord is: " + xCoord);
+		System.out.println("ENEMY yCoord is: " + yCoord);
+	}
 }

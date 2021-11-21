@@ -24,8 +24,5 @@ public abstract class SpaceShip implements Navigation{
 	public abstract int moveRIGHT();
 
 	
-	public void printCoords() {
-		System.out.println("xCoord is: " + xCoord);
-		System.out.println("yCoord is: " + yCoord);
-	}
+	public abstract void printCoords();
 }

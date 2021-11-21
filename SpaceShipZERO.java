@@ -39,4 +39,10 @@ public class SpaceShipZERO extends SpaceShip{
 		if(xCoord > MainClass.cosmosWidth) xCoord += xPace;
 		return xCoord;
 	}
+	
+	@Override
+	public void printCoords() {
+		System.out.println("ZERO xCoord is: " + xCoord);
+		System.out.println("ZERO yCoord is: " + yCoord);
+	}
 }

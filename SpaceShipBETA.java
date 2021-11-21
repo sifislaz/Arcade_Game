@@ -41,4 +41,10 @@ public class SpaceShipBETA extends SpaceShip{
 		if(xCoord + spaceShipWidth > MainClass.cosmosWidth) xCoord += xPace;  // if the spaceship is about to go out of bounds
 		return xCoord;
 	}
+
+	
+	public void printCoords() {
+		System.out.println("BETA xCoord is: " + xCoord);
+		System.out.println("BETA yCoord is: " + yCoord);
+	}
 }

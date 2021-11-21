@@ -41,4 +41,9 @@ public class SpaceShipDELTA extends SpaceShip{
 		if(xCoord + spaceShipWidth > MainClass.cosmosWidth) xCoord += xPace;  // if the spaceship is about to go out of bounds
 		return xCoord;
 	}
+	
+	public void printCoords() {
+		System.out.println("DELTA xCoord is: " + xCoord);
+		System.out.println("DELTA yCoord is: " + yCoord);
+	}
 }
