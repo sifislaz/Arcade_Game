@@ -4,14 +4,10 @@ import MainPackage.MainClass;
 public class SpaceShipZERO extends SpaceShip{
 	private int xPace = 5;
 	private int yPace = 5;
-	private int xCoord;
-	private int yCoord;
 	
 	
 	public SpaceShipZERO(int spaceShipHeight, int spaceShipWidth) {
 		super(spaceShipHeight, spaceShipWidth);
-		this.xCoord = super.xCoord;
-		this.yCoord = super.yCoord;
 		this.spaceShipHeight = super.spaceShipHeight;
 		this.spaceShipWidth = super.spaceShipWidth;
 	}
